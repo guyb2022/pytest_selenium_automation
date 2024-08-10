@@ -26,8 +26,13 @@ class BasePage:
     def get_title(self):
         return self.driver.title
 
-    def click_menu_page(self, path, element_page_name):
-        self.click(self.page(path, element_page_name))
+    def click_right_menu_page(self, page_name):
+        # page = By.XPATH, "//aside[@id='column-right']//a[text()=' " + page_name + "']"
+        # self.click(page)
+        # The above is the same as following:
+        self.click(self.page(page_name))
 
-    def page(self, path, page_element_name):
-        return By.XPATH, path + page_element_name + "']"
+
+    def page(self, page_name):
+        return By.XPATH, "//aside[@id='column-right']//a[text()=' " + page_name + "']"
+

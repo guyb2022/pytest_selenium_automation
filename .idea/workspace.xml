@@ -78,11 +78,28 @@
       <option name="project" value="LOCAL" />
       <updated>1723231288259</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create utilities package&#10;create locators for login page and change password page">
+      <option name="closed" value="true" />
+      <created>1723285845926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723285845926</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create utilities package&#10;create locators for login page and change password page">
+      <option name="closed" value="true" />
+      <created>1723285852254</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723285852254</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit, finished writing the basic pages structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit, finished writing the basic pages structure" />
+    <MESSAGE value="Create utilities package&#10;create locators for login page and change password page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create utilities package&#10;create locators for login page and change password page" />
   </component>
 </project>
