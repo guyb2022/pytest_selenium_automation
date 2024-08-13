@@ -31,6 +31,7 @@ class LoginPage(BasePage):
         self.set_email_address(email)
         self.set_password(password)
         self.click_login_button()
+        return MyAccountPage(self.driver)
 
     def get_warning_message(self):
         return self.get_text(self.warning_message)

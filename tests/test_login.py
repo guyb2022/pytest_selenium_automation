@@ -9,7 +9,6 @@ import pytest
 @pytest.mark.usefixtures('initialize_driver')
 class TestLogin(BaseTest):
 
-    @pytest.mark.usefixtures('initialize_driver')
     def test_valid_credentials(self, initialize_driver):
         driver = initialize_driver
         login_page = LoginPage(driver)
@@ -18,7 +17,6 @@ class TestLogin(BaseTest):
         actual_title = login_page.get_title()
         assert actual_title == "My Account"
 
-    @pytest.mark.usefixtures('initialize_driver')
     def test_invalid_credentials(self, initialize_driver):
         driver = initialize_driver
         login_page = LoginPage(driver)
