@@ -20,6 +20,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -33,9 +36,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_login.TestLogin.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_valid_credentials.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/berge/PycharmProjects/POM_Assuta_Page",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
@@ -46,6 +52,52 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\berge\PycharmProjects\pytest_selenium_automation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\berge\PycharmProjects\pytest_selenium_automation\" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_login.TestLogin.test_valid_credentials">
+    <configuration name="Python tests for test_login.TestLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pytest_selenium_automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login.TestLogin.test_valid_credentials" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pytest_selenium_automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin.test_valid_credentials&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_login.TestLogin.test_valid_credentials" />
+        <item itemvalue="Python tests.Python tests for test_login.TestLogin" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,12 +146,44 @@
       <option name="project" value="LOCAL" />
       <updated>1723285852254</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added /gitignore dotenv &#10;Added functionality to the password check and set password page">
+      <option name="closed" value="true" />
+      <created>1723293902733</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723293902733</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added /gitignore dotenv &#10;Added functionality to the password check and set password page">
+      <option name="closed" value="true" />
+      <created>1723293907636</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723293907636</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit, finished writing the basic pages structure" />
     <MESSAGE value="Create utilities package&#10;create locators for login page and change password page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create utilities package&#10;create locators for login page and change password page" />
+    <MESSAGE value="Added /gitignore dotenv &#10;Added functionality to the password check and set password page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added /gitignore dotenv &#10;Added functionality to the password check and set password page" />
   </component>
 </project>

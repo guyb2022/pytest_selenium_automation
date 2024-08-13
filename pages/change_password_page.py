@@ -5,6 +5,10 @@ from utilities.locators import ChangePasswordLocatorFields
 
 class ChangePasswordPage(BasePage):
     def __init__(self, driver):
+        # We used the utilities package with the locators.py file for the locators
+        # Otherwise we could implement all locators right here
+        # self.password = (By.ID, "input-password")
+        # etc.
         self.locate = ChangePasswordLocatorFields
         super().__init__(driver)
 
