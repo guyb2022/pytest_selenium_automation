@@ -1,5 +1,4 @@
 from selenium.webdriver.common.by import By
-
 from conftest import initialize_driver
 from pages.base_page import BasePage
 from pages.my_account_page import MyAccountPage

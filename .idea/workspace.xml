@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c08eb9b1-ae1a-4f11-8df2-c4f3e6c990cc" name="Changes" comment="" />
+    <list default="true" id="c08eb9b1-ae1a-4f11-8df2-c4f3e6c990cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,11 +39,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for test_login.TestLogin.executor": "Run",
-    "Python tests.Python tests for test_login.TestLogin.test_valid_credentials.executor": "Debug",
+    "Python tests.Python tests for test_login.TestLogin.test_valid_credentials.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/berge/PycharmProjects/POM_Assuta_Page",
+    "last_opened_file_path": "C:/Users/berge/PycharmProjects/pytest_selenium_automation",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
@@ -57,10 +59,12 @@
       <recent name="C:\Users\berge\PycharmProjects\pytest_selenium_automation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\berge\PycharmProjects\pytest_selenium_automation\utilities" />
+      <recent name="C:\Users\berge\PycharmProjects\pytest_selenium_automation" />
       <recent name="C:\Users\berge\PycharmProjects\pytest_selenium_automation\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_login.TestLogin.test_valid_credentials">
+  <component name="RunManager" selected="Python tests.Python tests for test_login.TestLogin">
     <configuration name="Python tests for test_login.TestLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pytest_selenium_automation" />
       <option name="ENV_FILES" value="" />
@@ -93,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_login.TestLogin.test_valid_credentials" />
         <item itemvalue="Python tests.Python tests for test_login.TestLogin" />
+        <item itemvalue="Python tests.Python tests for test_login.TestLogin.test_valid_credentials" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723563494830</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finished change password test with non-identical passwords">
+      <option name="closed" value="true" />
+      <created>1723567138195</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723567138195</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Finished change password test with non-identical passwords">
+      <option name="closed" value="true" />
+      <created>1723567141940</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723567141940</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -201,6 +221,7 @@
     <MESSAGE value="Create utilities package&#10;create locators for login page and change password page" />
     <MESSAGE value="Added /gitignore dotenv &#10;Added functionality to the password check and set password page" />
     <MESSAGE value="Finished first test: test_login with  good/bad credentials" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished first test: test_login with  good/bad credentials" />
+    <MESSAGE value="Finished change password test with non-identical passwords" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished change password test with non-identical passwords" />
   </component>
 </project>
