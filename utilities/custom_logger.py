@@ -13,7 +13,7 @@ class LogGen:
                             format=FORMAT,
                             datefmt=DATEFMT,
                             handlers=[
-                                        logging.FileHandler("./logs/automation.log"),
+                                        logging.FileHandler("logs/automation.log"),
                                         logging.StreamHandler()
                                     ]
                             )

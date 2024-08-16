@@ -64,7 +64,7 @@
       <recent name="C:\Users\berge\PycharmProjects\pytest_selenium_automation\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_login.TestLogin">
+  <component name="RunManager" selected="Python tests.Python tests for test_login.TestLogin.test_valid_credentials">
     <configuration name="Python tests for test_login.TestLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pytest_selenium_automation" />
       <option name="ENV_FILES" value="" />
@@ -97,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_login.TestLogin" />
         <item itemvalue="Python tests.Python tests for test_login.TestLogin.test_valid_credentials" />
+        <item itemvalue="Python tests.Python tests for test_login.TestLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +198,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723567141940</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added log files &#10;Added allure Reports web page">
+      <option name="closed" value="true" />
+      <created>1723816399130</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723816399130</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added log files &#10;Added allure Reports web page">
+      <option name="closed" value="true" />
+      <created>1723816403174</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723816403175</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -222,6 +238,7 @@
     <MESSAGE value="Added /gitignore dotenv &#10;Added functionality to the password check and set password page" />
     <MESSAGE value="Finished first test: test_login with  good/bad credentials" />
     <MESSAGE value="Finished change password test with non-identical passwords" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished change password test with non-identical passwords" />
+    <MESSAGE value="Added log files &#10;Added allure Reports web page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added log files &#10;Added allure Reports web page" />
   </component>
 </project>

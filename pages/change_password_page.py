@@ -1,6 +1,7 @@
 from pages.base_page import BasePage
 from pages.my_account_page import MyAccountPage
 from utilities.locators import ChangePasswordLocatorFields
+import time
 
 
 class ChangePasswordPage(BasePage):
@@ -15,6 +16,7 @@ class ChangePasswordPage(BasePage):
     def change_password(self, password, confirm_password):
         self.set(self.locate.password_field, password)
         self.set(self.locate.confirm_password_field, confirm_password)
+        time.sleep(3)
         self.click(self.locate.continue_button)
         return MyAccountPage(self.driver)
 
