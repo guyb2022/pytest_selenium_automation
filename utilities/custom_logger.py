@@ -1,4 +1,5 @@
 import logging
+import os
 
 for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
@@ -7,6 +8,10 @@ for handler in logging.root.handlers[:]:
 class LogGen:
     @staticmethod
     def loggen(file_name):
+        # Ensure the logs directory exists
+        if not os.path.exists("logs"):
+            os.makedirs("logs")
+
         FORMAT = '%(asctime)s: %(levelname)s: %(message)s'
         DATEFMT = '%m/%d/%Y %I:%M:%S %p'
         logging.basicConfig(

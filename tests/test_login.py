@@ -12,7 +12,7 @@ class TestLogin(BaseTest):
 
     @pytest.mark.sanity
     @pytest.mark.regression
-    @pytest.mark.skip
+    # @pytest.mark.skip
     def test_valid_credentials(self, initialize_driver):
         self.logger.info("#" * 10 + " Starting test_valid_credentials " + "#" * 10)
         driver = initialize_driver
@@ -46,7 +46,7 @@ class TestLogin(BaseTest):
             self.logger.exception(exceptions)
         finally:
             self.logger.info("#" * 10 + " Ended test_invalid_credentials " + "#" * 10)
-            assert actual_message == "Warning: No match for E-Mail Address and/or Password"
+            assert actual_message == "Warning: No match for E-Mail Address and/or Password."
 
 
 

@@ -343,7 +343,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723921340312</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="fix typo in the CI.yaml file">
+      <option name="closed" value="true" />
+      <created>1723921575548</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1723921575548</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix typo in the CI.yaml file">
+      <option name="closed" value="true" />
+      <created>1723921591547</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1723921591547</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -371,6 +387,7 @@
     <MESSAGE value="Added screenshots&#10;Added run.bat file&#10;Added requirements.txt file" />
     <MESSAGE value="Added .github\workflows CI.yaml file for CI github actions" />
     <MESSAGE value="Improved logging files&#10;Added more exception handling" />
+    <MESSAGE value="fix typo in the CI.yaml file &amp; requirement.txt file" />
     <MESSAGE value="fix typo in the CI.yaml file" />
     <option name="LAST_COMMIT_MESSAGE" value="fix typo in the CI.yaml file" />
   </component>
