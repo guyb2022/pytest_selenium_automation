@@ -20,6 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -270,7 +271,55 @@
       <option name="project" value="LOCAL" />
       <updated>1723837085269</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Improved logging files&#10;Added more exception handling">
+      <option name="closed" value="true" />
+      <created>1723920334981</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723920334981</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Improved logging files&#10;Added more exception handling">
+      <option name="closed" value="true" />
+      <created>1723920340078</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1723920340078</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix typo in the CI.yaml file">
+      <option name="closed" value="true" />
+      <created>1723920479772</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723920479772</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix typo in the CI.yaml file">
+      <option name="closed" value="true" />
+      <created>1723920489050</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723920489050</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix typo in the CI.yaml file">
+      <option name="closed" value="true" />
+      <created>1723920498793</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723920498793</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fix typo in the CI.yaml file">
+      <option name="closed" value="true" />
+      <created>1723920641581</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723920641581</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -296,7 +345,9 @@
     <MESSAGE value="Finished change password test with non-identical passwords" />
     <MESSAGE value="Added log files &#10;Added allure Reports web page" />
     <MESSAGE value="Added screenshots&#10;Added run.bat file&#10;Added requirements.txt file" />
+    <MESSAGE value="Added .github\workflows CI.yaml file for CI github actions" />
     <MESSAGE value="Improved logging files&#10;Added more exception handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved logging files&#10;Added more exception handling" />
+    <MESSAGE value="fix typo in the CI.yaml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix typo in the CI.yaml file" />
   </component>
 </project>
