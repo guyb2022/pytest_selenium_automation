@@ -230,7 +230,47 @@
       <option name="project" value="LOCAL" />
       <updated>1723824247271</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Improved logging files&#10;Added more exception handling">
+      <option name="closed" value="true" />
+      <created>1723836910881</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723836910881</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Improved logging files&#10;Added more exception handling">
+      <option name="closed" value="true" />
+      <created>1723836939646</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723836939646</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Improved logging files&#10;Added more exception handling">
+      <option name="closed" value="true" />
+      <created>1723837048877</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723837048877</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Improved logging files&#10;Added more exception handling">
+      <option name="closed" value="true" />
+      <created>1723837062379</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723837062379</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Improved logging files&#10;Added more exception handling">
+      <option name="closed" value="true" />
+      <created>1723837085269</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723837085269</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -256,6 +296,7 @@
     <MESSAGE value="Finished change password test with non-identical passwords" />
     <MESSAGE value="Added log files &#10;Added allure Reports web page" />
     <MESSAGE value="Added screenshots&#10;Added run.bat file&#10;Added requirements.txt file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added screenshots&#10;Added run.bat file&#10;Added requirements.txt file" />
+    <MESSAGE value="Improved logging files&#10;Added more exception handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved logging files&#10;Added more exception handling" />
   </component>
 </project>
