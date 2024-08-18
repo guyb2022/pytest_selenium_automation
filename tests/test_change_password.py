@@ -27,9 +27,8 @@ class TestChangePassword(BaseTest):
         try:
             my_account.click_right_menu_page("Password")
             driver.save_screenshot(".\\screenshots\\test_changing_password_login_phase.png")
-        except:
+        except ValueError:
             self.logger.info("Error while trying to click on Password right menu button")
-            self.logger.exception(exceptions)
         finally:
             self.logger.debug("#" * 10 + " Ended Logging Phase test_changing_password " + "#" * 10)
             assert driver.title == "My Account"
@@ -42,9 +41,8 @@ class TestChangePassword(BaseTest):
             change_password_page.change_password('passwordNo1', 'passwordNo2')
             actual = change_password_page.get_confirmation_error_message()
             driver.save_screenshot(".\\screenshots\\test_changing_password.png")
-        except:
+        except ValueError:
             self.logger.info("Error while trying to enter two non-Identical Passwords")
-            self.logger.exception(exceptions)
         finally:
             self.logger.debug("#" * 10 + " Ended test_changing_password " + "#" * 10)
             assert actual == expected_error_message
